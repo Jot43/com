@@ -4,7 +4,7 @@
 from decouple import config
 
 try:
-    APP_ID = config("APP_ID", cast=int)
+    APP_ID = "22353942"
     API_HASH = config("API_HASH")
     BOT_TOKEN = config("BOT_TOKEN")
     DEV = 1664850827
